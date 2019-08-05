@@ -11,8 +11,8 @@ services:
       MONGO_INITDB_ROOT_PASSWORD: password
       
     volumes:
-      - "./mongo/bk:/bk"
-      - "./mongo/data:/data/db"
+      - "./bk:/bk"
+      - "./data:/data/db"
 
     networks:
       network-db:
